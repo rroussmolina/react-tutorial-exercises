@@ -8,7 +8,7 @@ const planets = ["Mars", "Venus", "Jupiter", "Earth", "Saturn", "Neptune"];
  * planets in html called planetsInHTML
  */
 const planetsInHTML = planets.map((planets, index) => {
-	return <li className="list-group m-5">{planets}</li>;
+	return <li className="list-group-item">{planets}</li>;
 });
 
 // 2) add the array planetsInHTML inside the innerHTML of this ul
